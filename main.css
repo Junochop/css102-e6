@@ -1,6 +1,7 @@
 .product {
 	width: 400px;
 	border: 2px solid slategray;
+	margin: 1%
 }
 
 .image img  {
@@ -15,11 +16,11 @@
 	margin: 0;
 }
 .description {
-	padding: 3%;
+	padding: 2%;
 }
 
 .description h6 {
-  font-size: 2em;
+  font-size: 1.5em;
   padding: 2%;
 
 }
@@ -27,4 +28,11 @@
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Raleway', sans-serif;
+}
+
+/*Card layout*/
+#product-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
