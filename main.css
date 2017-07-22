@@ -5,7 +5,7 @@
 }
 
 .image img  {
-  max-width: 350px;
+  max-width: 100%;
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
   
@@ -35,4 +35,14 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+}
+
+/*Sold out*/
+.product {
+	position: relative;
+	
+}
+.sold-out {
+	position: absolute;
+	top: 90px;
 }
